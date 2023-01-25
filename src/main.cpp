@@ -25,14 +25,14 @@ WebServer server(80);
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "zaidura"
-#define WIFI_PASSWORD "z6958916"
+#define WIFI_SSID "yourWifi"
+#define WIFI_PASSWORD "yourPassword"
 
 // Insert Firebase project API Key
-#define API_KEY "AIzaSyBEHzYcuW8nFscbQFQW7MHVOfhk5KDO0tg"
+#define API_KEY "yourApiKey"
 
 // Insert RTDB URLefine the RTDB URL */
-#define DATABASE_URL "https://prodsensor-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define DATABASE_URL "yourUrl" 
 
 //Define Firebase Data object
 FirebaseData fbdo;
